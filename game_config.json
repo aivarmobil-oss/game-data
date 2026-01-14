@@ -1,93 +1,116 @@
 {
-	"base_items": {
-		"0": [
-			{
-				"icon_path": "",
-				"id": "cat_normal",
-				"name": "Обычный кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_ginger",
-				"name": "Рыжий кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_black",
-				"name": "Черный кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_white",
-				"name": "Белый кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_striped",
-				"name": "Полосатый кот"
-			}
-		],
-		"1": [
-			{
-				"icon_path": "",
-				"id": "cat_rainbow",
-				"name": "Радужный кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_ninja",
-				"name": "Кот-ниндзя"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_pirate",
-				"name": "Пиратский кот"
-			}
-		],
-		"2": [
-			{
-				"icon_path": "",
-				"id": "cat_dragon",
-				"name": "Драконий кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_robot",
-				"name": "Робот-кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_wizard",
-				"name": "Кот-маг"
-			}
-		],
-		"3": [
-			{
-				"icon_path": "",
-				"id": "cat_pepe",
-				"name": "Пепе-кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_doge",
-				"name": "Дож-кот"
-			},
-			{
-				"icon_path": "",
-				"id": "cat_chonk",
-				"name": "Чонк-кот"
-			}
-		]
-	},
-	"game_settings": {
-		"auto_item_timer": 30.0,
-		"click_multiplier": 1.0
-	},
+	"version": 1,
 	"rarity_chances": {
 		"0": 70.0,
 		"1": 20.0,
 		"2": 8.0,
 		"3": 2.0
 	},
-	"version": 3
+	"base_items": {
+		"0": [
+			{
+				"id": "cat_normal",
+				"name": "Обычный кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_ginger",
+				"name": "Рыжий кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_black",
+				"name": "Черный кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_white",
+				"name": "Белый кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_striped",
+				"name": "Полосатый кот",
+				"icon_path": ""
+			}
+		],
+		"1": [
+			{
+				"id": "cat_rainbow",
+				"name": "Радужный кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_ninja",
+				"name": "Кот-ниндзя",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_pirate",
+				"name": "Пиратский кот",
+				"icon_path": ""
+			}
+		],
+		"2": [
+			{
+				"id": "cat_dragon",
+				"name": "Драконий кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_robot",
+				"name": "Робот-кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_wizard",
+				"name": "Кот-маг",
+				"icon_path": ""
+			}
+		],
+		"3": [
+			{
+				"id": "cat_pepe",
+				"name": "Пепе-кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_doge",
+				"name": "Дож-кот",
+				"icon_path": ""
+			},
+			{
+				"id": "cat_chonk",
+				"name": "Чонк-кот",
+				"icon_path": ""
+			}
+		]
+	},
+	"game_settings": {
+		"auto_item_timer": 30.0,
+		"click_multiplier": 1.0,
+		"economy": {
+			"base_passive_per_hour": 100.0,
+			"trade_lock_clicks": 5000,
+			"maintenance_rate": 0.25,
+			"drop_chances_percent": {
+				"0": 70.0,
+				"1": 20.0,
+				"2": 8.0,
+				"3": 2.0
+			},
+			"retire_click_limits": [
+				50000,
+				75000,
+				110000,
+				150000,
+				200000,
+				260000,
+				330000,
+				410000,
+				500000,
+				600000
+			]
+		}
+	}
 }
